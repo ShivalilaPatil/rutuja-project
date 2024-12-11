@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rututja Kambale</title>
+    <!-- Bootstrap  -->
+        <link
+      href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <!-- End Bootstrap  -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="assets/aos/aos.css">   
+    <script src="assets/aos/aos.js"></script> 
+    <!-- end aos -->
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--End External CSS -->
+
+    <!-- font awesome -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/js/all.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/fontawesome.min.css"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+    /> -->
+    <!-- End font awesome -->
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <div class="container-main">
+      <!--------------------- Navbar ------------------------->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><span class="h3 fw-bold">Rutuja</span></a
+          >
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+            <!-- <i class="fa fa-bars" onclick="changeIcon(this)"></i> -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto ">
+              <a class="nav-link menu" aria-current="page" href="#home"
+                >Home</a
+              >
+              <a class="nav-link menu" href="#about">About</a>
+              <!-- <a class="nav-link menu" href="#projects">Projects</a> -->
+              <a class="nav-link menu" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!----------------------------  End Navbar --------------------------->
+
+      <!--------------------------- Homepage section -------------------------->
+      <section class="homepage" id="home">
+        <div class="home-content row px-3">
+          <aside class="home-content-info col-md-6 ps-md-5">
+            <h2 data-aos="fade-up">I'm a Frontend Developer From Maharashtra, India</h2>
+            <p class="mt-lg-4 fs-md-4" data-aos="fade-up" data-aos-delay="300">
+              Welcome to my corner of the web! I am Rututja Kambale , Crafting seamless and engaging web experiences with passion for clean and innovative design.
+            </p>
+            <div class="row" data-aos="fade-up" data-aos-delay="500">
+              <div class="col-6 social-med-contact">
+                <ul>
+                  <li>
+                    <a class="" href="https://www.linkedin.com/in/rutuja-kamble-188529330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <i class="fab fa-linkedin-in fa-lg icon"></i>
+                    </a>
+                  </li>             
+                  <li>
+                    <a href="mailto:rutujak983@gmail.com"
+                      ><i class="fa-solid fa-envelope fa-lg icon"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-5 get-started-btn">
+                <a href="#about"><button>Get Started</button></a>
+              </div>
+            </div>
+          </aside>
+          <aside class="home-content-img col-md-6 mt-2 mb-0 pb-0 text-center"   >
+            <img
+              src="assets/images/img-hero1.jpg"
+              alt=""
+              class="home-content-img img-fluid col-7 "
+            />
+          </aside>
+        </div>
+
+        <svg
+        class="home-wave"
+          id="wave"
+          style="transform: rotate(0deg); transition: 0.3s"
+          viewBox="0 0 1440 220"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,154L20,135.7C40,117,80,81,120,80.7C160,81,200,117,240,139.3C280,161,320,169,360,146.7C400,125,440,73,480,73.3C520,73,560,125,600,128.3C640,132,680,88,720,91.7C760,95,800,147,840,146.7C880,147,920,95,960,66C1000,37,1040,29,1080,47.7C1120,66,1160,110,1200,132C1240,154,1280,154,1320,128.3C1360,103,1400,51,1440,40.3C1480,29,1520,59,1560,88C1600,117,1640,147,1680,139.3C1720,132,1760,88,1800,69.7C1840,51,1880,59,1920,77C1960,95,2000,125,2040,132C2080,139,2120,125,2160,106.3C2200,88,2240,66,2280,62.3C2320,59,2360,73,2400,88C2440,103,2480,117,2520,132C2560,147,2600,161,2640,165C2680,169,2720,161,2760,154C2800,147,2840,139,2860,135.7L2880,132L2880,220L2860,220C2840,220,2800,220,2760,220C2720,220,2680,220,2640,220C2600,220,2560,220,2520,220C2480,220,2440,220,2400,220C2360,220,2320,220,2280,220C2240,220,2200,220,2160,220C2120,220,2080,220,2040,220C2000,220,1960,220,1920,220C1880,220,1840,220,1800,220C1760,220,1720,220,1680,220C1640,220,1600,220,1560,220C1520,220,1480,220,1440,220C1400,220,1360,220,1320,220C1280,220,1240,220,1200,220C1160,220,1120,220,1080,220C1040,220,1000,220,960,220C920,220,880,220,840,220C800,220,760,220,720,220C680,220,640,220,600,220C560,220,520,220,480,220C440,220,400,220,360,220C320,220,280,220,240,220C200,220,160,220,120,220C80,220,40,220,20,220L0,220Z"
+          ></path>
+        </svg>
+      </section>
+      <!----------------------- End Homepage section ------------------------>
+
+      <!------------------------- About Section ------------------------>
+
+      <section id="about" class="about ">
+        <div class="about-content px-2">
+          <p class="sec-title" data-aos="fade-up">About</p>
+          <h2 class="sec-title-2"  data-aos="fade-up">My Education, Skills & Experiences</h2>
+          <div class="row about-con-main mt-4 mx-md-5 mx-1">
+            <div class="about-edu col-md-6"  data-aos="fade-up" >
+              <h3 class="sec-title-3">Education</h3>
+              <div class="about-edu-box mt-4 me-md-2">
+                <div class="about-box-item row">
+                  <div class="item-icon col-2">
+                    <i class="fa-solid fa-school fa-xl"></i>
+                  </div>
+                  <div class="item-con col">
+                    <h6>M.C.A (2023-2025)</h6>
+                    <p>D.Y.Patil Univercity,Talasande.</p>
+                  </div>
+                </div>
+                <div class="about-box-item row">
+                  <div class="item-icon col-2">
+                    <i class="fa-solid fa-school fa-xl"></i>
+                  </div>
+                  <div class="item-con col">
+                    <h6>B.S.C (2020-2023)</h6>
+                    <p>Swami Vivekanand College, kolhapur</p>
+                  </div>
+                </div>
+                <div class="about-box-item row">
+                  <div class="item-icon col-2">
+                    <i class="fa-solid fa-school fa-xl"></i>
+                  </div>
+                  <div class="item-con col">
+                    <h6>Certification in AWS for beginners 2023</h6>
+                    <p>Great Learning Academy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-skill col-md-6"  data-aos="fade-up" data-aos-delay="50">
+              <h3 class="sec-title-3">Skills</h3>
+              <div class="about-skill-box mt-4 me-md-2">
+                <div class="about-box-item row">
+                  <div class="item-icon col-2">
+                    <i class="fa-solid fa-laptop fa-xl"></i>
+                  </div>
+                  <div class="item-con col pb-3">
+                    <h6>Frontend Development</h6>
+                    <div class="skill-set d-flex flex-wrap">
+                      <h6 class="skill_tab">
+                        HTML
+                        <i
+                          class="fa-brands fa-html5 fa-lg"
+                          style="color: #f06529"
+                        ></i>
+                      </h6>
+                      <h6 class="skill_tab">
+                        CSS
+                        <i
+                          class="fa-brands fa-css3-alt fa-lg"
+                          style="color: #264de4"
+                        ></i>
+                      </h6>
+                      <h6 class="skill_tab">
+                        Javascript
+                        <i
+                          class="fa-brands fa-js fa-lg"
+                          style="color: #f0db4f"
+                        ></i>
+                      </h6>
+                      <h6 class="skill_tab">
+                        Bootstrap
+                        <i
+                          class="fa-brands fa-bootstrap fa-lg"
+                          style="color: #6223d7"
+                        ></i>
+                      </h6>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="about-box-item row">
+                  <div class="item-icon col-2">
+                    <i class="fa-solid fa-laptop fa-xl"></i>
+                  </div>
+                  <div class="item-con col pb-3">
+                    <h6>Tools</h6>
+                    <div class="skill-set d-flex flex-wrap">
+                      <h6 class="skill_tab">VS Code</h6>
+                      <h6 class="skill_tab">NetBeans</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="about-exp col w-100"  data-aos="fade-up">
+              <h3 class="sec-title-3 my-4 text-center">Experiences</h3>
+              <div class="about-exp-box">
+                <div class="about-exp-item row">
+                  <div class="exp-year col-md-3">
+                    <span> July - August 2023</span>
+                  </div>
+                  <div class="col-md">
+                    <h5 class="role">Frontend Intern</h5>
+                    <p class="com-name">Infotrixs, Pune</p>
+                    <p>
+                      Gained hands-on experience in frontend development,
+                      Collaborating with a team to build web applications.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="about-exp-item row">
+                  <div class="exp-year col-md-3">
+                    <span> July - August 2023</span>
+                  </div>
+                  <div class="col-md-9">
+                    <h5 class="role">Frontend Intern</h5>
+                    <p class="com-name">Infotrixs, Pune</p>
+                    <p>
+                      Gained hands-on experience in frontend development,
+                      Collaborating with a team to build web applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!------------------------- About Section End ------------------------>
+
+      <!------------------------- projects Section ------------------------>
+
+      <!-- <section id="projects" class="projects mt-5 mb-5">
+        <div class="projects-content">
+          <p class="sec-title mt-3"  data-aos="fade-up" >Projects</p>
+          <h2 class="sec-title-2"  data-aos="fade-up">My Recent Work</h2>
+          <div class="row pro-con-main my-5 mx-md-5 mx-2"  data-aos="fade-up">
+            
+            <div class="pro-item col-md-6 col-lg-4 py-2 px-3 my-3">
+              <div class="row pro-img-div">
+                <img
+                  src="assets/images/pro-2.png"
+                  alt=""
+                  class="pro-img img-fluid"
+                />
+                <div class="pro-demo text-center">
+                  <a href="https://shivalilapatil.github.io/AmazonClone/"  target="_blank"><button class="px-3 py-1">Demo</button></a>
+                </div>
+              </div>
+              <div class="pro-info-div">
+                <h5 class="pro-title">Amazon Clone</h5>
+                <p class="pro-exp">
+                  I've crafted a fully-functional clone of the Amazon website utilizing HTML and CSS. This project showcases my proficiency in front-end development and attention to detail.
+                </p>
+              </div>
+            </div>
+            <div class="pro-item col-md-6 col-lg-4 py-2 px-3 my-3">
+              <div class="row pro-img-div">
+                <img
+                  src="assets/images/pro-3.png"
+                  alt=""
+                  class="pro-img img-fluid"
+                />
+                <div class="pro-demo text-center">
+                  <a href="https://shivalilapatil.github.io/JS_API_Projects/1st_random_joke_generator"><button class="px-3 py-1">Demo</button></a>
+                </div>
+              </div>
+              <div class="pro-info-div">
+                <h5 class="pro-title">Random Joke Generator</h5>
+                <p class="pro-exp">
+                  The Random Joke Generator uses the JavaScript Fetch API to retrieve and display random jokes from a public API with a single button click. This project showcases asynchronous programming and API integration in JavaScript.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section> -->
+
+      <!------------------------- projects Section end ------------------------>
+
+
+      <!------------------------- contact Section ------------------------>
+<section id="contact" class="contact mt-4">
+  <div class="contact-content mb-4">
+    <p class="sec-title row mt-4 mb-4 d-md-block d-none"  data-aos="fade-up" >Contact Us</p>
+    <div class="contact-box row">
+      <div class="contact-img-box col-md-4 ms-md-3"  data-aos="fade-up" data-aos-delay="10">
+        <p class="sec-title row mt-3 d-md-none d-block text-center">Contact Us</p>
+        <h4 class="sec-title-2 text-light text-center pt-md-5 d-md-block d-none" >LET US HEAR FROM YOU...</h4>
+        <h6 class="sec-title-2 text-light text-center pt-md-5 d-block d-md-none" >LET US HEAR FROM YOU...</h6>
+      </div>
+      <div class="contact-form-box col"  data-aos="fade-up" data-aos-delay="20">
+        <div class="row mx-3 my-3 mt-md-0 px-3 px-md-5 py-4 form-group ">
+         <form class="form-group" action="https://formspree.io/f/mdkovlqg"
+         method="POST" target="_blank" onsubmit="setTimeout(function() {window.location.reload();},10)">
+          <input type="text" name="name" placeholder="Enter Your Name" class="form-control form-name" required>
+          <input type="email" name="email" placeholder="Enter Your Email"  class="form-control form-email" required>
+          <input type="text" name="subject" placeholder="Enter Subject" class="form-control form-sub" required>
+          <textarea name="message" placeholder="Enter Message" cols="25" rows="5"  class="form-textarea form-sub px-3" required></textarea>
+          <button name="submit" type="submit" value="Submit" class="form-btn px-md-5 px-3 py-md-2 py-1 form-sub">Contact Us</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!------------------------- contact Section end ------------------------>
+
+<!----------------------- Footer  ---------------------->
+
+<footer class="footer"  data-aos="fade-up" data-aos-delay="50">
+ 
+<div class="footer-content">
+
+  <svg class="footer-wave" id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 120" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,24L17.1,26C34.3,28,69,32,103,40C137.1,48,171,60,206,62C240,64,274,56,309,44C342.9,32,377,16,411,20C445.7,24,480,48,514,56C548.6,64,583,56,617,44C651.4,32,686,16,720,18C754.3,20,789,40,823,42C857.1,44,891,28,926,18C960,8,994,4,1029,10C1062.9,16,1097,32,1131,46C1165.7,60,1200,72,1234,74C1268.6,76,1303,68,1337,60C1371.4,52,1406,44,1440,38C1474.3,32,1509,28,1543,22C1577.1,16,1611,8,1646,4C1680,0,1714,0,1749,4C1782.9,8,1817,16,1851,32C1885.7,48,1920,72,1954,86C1988.6,100,2023,104,2057,90C2091.4,76,2126,44,2160,44C2194.3,44,2229,76,2263,88C2297.1,100,2331,92,2366,82C2400,72,2434,60,2451,54L2468.6,48L2468.6,120L2451.4,120C2434.3,120,2400,120,2366,120C2331.4,120,2297,120,2263,120C2228.6,120,2194,120,2160,120C2125.7,120,2091,120,2057,120C2022.9,120,1989,120,1954,120C1920,120,1886,120,1851,120C1817.1,120,1783,120,1749,120C1714.3,120,1680,120,1646,120C1611.4,120,1577,120,1543,120C1508.6,120,1474,120,1440,120C1405.7,120,1371,120,1337,120C1302.9,120,1269,120,1234,120C1200,120,1166,120,1131,120C1097.1,120,1063,120,1029,120C994.3,120,960,120,926,120C891.4,120,857,120,823,120C788.6,120,754,120,720,120C685.7,120,651,120,617,120C582.9,120,549,120,514,120C480,120,446,120,411,120C377.1,120,343,120,309,120C274.3,120,240,120,206,120C171.4,120,137,120,103,120C68.6,120,34,120,17,120L0,120Z"></path></svg>
+  
+  <div class="footer-con-box mt-3">
+    <div class="footer-menu text-center">
+     <a class="menu"  href="#home">Home</a>
+     <a class="menu" href="#about">About</a>
+      <!-- <a class="menu" href="#projects">Projects</a> -->
+      <a class="menu" href="#contact">Contact</a>
+    </div>
+    <div class="row">
+      <div class="col social-med-contact ">
+        <ul>
+          <li>
+            <a class="" href="https://www.linkedin.com/in/rutuja-kamble-188529330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i class="fab fa-linkedin-in fa-lg icon"></i>
+            </a>
+          </li>
+          
+          <li>
+            <a href="mailto:rutujak983@gmail.com"
+              ><i class="fa-solid fa-envelope fa-lg icon"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="copy-sec">
+      <p class="text-center mx-3 pb-3 text-light mb-0">Copyright 2024 RutujaKambale. All Rights Reserved.</p>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+    </div>
+
+    <!-- main js  -->
+    <script src="app.js"></script>
+    <!-- aos javascript -->
+    <script src="./assets/aos/aos.js"></script>
+  </body>
+</html>
